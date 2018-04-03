@@ -8,13 +8,13 @@ body{
 	text-align: left; /* alinhamento */
 	text-shadow: 1px 1px 0px #fff; /*sombreamento para as fontes do site*/
 }
-body .center{
+.center{
 	margin: 0 auto;
 	max-width: 1200px;
 	width: 90%;
 }
 
-/* usado pra add espaço vazio antes e depois dos elementos evitando que os floats se aglomerações*/
+/* usado pra add espaço vazio antes e depois dos elementos evitando que os floats se aglomerem*/
 .clearfix:before, .clearfix:after{
 	content: "";
 	display: table;
@@ -84,7 +84,7 @@ menu
 */
 
 nav{
-	float: right;
+	float: right; /* posicionamento a direta */
 	margin-top: 78px;
 	text-align: right;
 	width:40.83333333333333%; /* 490px ÷ 1200px = 0.4083333333333333 x 100 = 40.83333333333333%*/
@@ -123,18 +123,18 @@ seção .chamada
 
 .chamada{
 	height: 290px;
-	width: 100%; /*1200px; */
+	width: 100%; /*1200px %1200px = 1 x 100 = 100% */
 	text-align:center;
 }
 	h2 span{
 		font-size: 1em; /* 60px ÷ 60px = 1em */
-		font-weight: 300;
+		font-weight: 300; /*espessura da fonte */
 		letter-spacing: -0.0333333333em; /* -2px ÷ 60px = 0.0333333333em */
 		line-height: 1em; /* 60px ÷ 60px = 1em */
 	}
 	.chamada h3{
 		margin: 0 auto;
-		width: 75%; /*900px % 1200px = 0.75 x 100 */
+		width: 75%; /* 900px % 1200px = 0.75 x 100 */
 	}
 
 /* 
